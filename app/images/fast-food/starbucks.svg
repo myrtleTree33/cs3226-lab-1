@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="29.689779mm"
+   height="37.502182mm"
+   viewBox="0 0 105.20001 132.88175"
+   id="svg5858"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="starbucks.svg"
+   inkscape:export-filename="/home/joel/repos/cs3226/cs3226-lab-1/app/images/fast-food/starbucks.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5860" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="28.911179"
+     inkscape:cy="-1.4733714"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5863">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-510.25714,-577.3499)">
+    <g
+       transform="matrix(1.25,0,0,-1.25,436.67468,1802.7928)"
+       id="g5821">
+      <path
+         inkscape:connector-curvature="0"
+         id="path182"
+         style="fill:#f3f3f3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 143.02597,958.98992 -84.160004,0 0,7.06 84.160004,0 0,-7.06 z" />
+      <g
+         transform="translate(63.021766,964.79062)"
+         id="g184">
+        <path
+           inkscape:connector-curvature="0"
+           id="path186"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 0,0 c 0,6.407 5.35,11.601 11.949,11.601 l 51.95,0 C 70.498,11.601 75.847,6.407 75.847,0" />
+      </g>
+      <g
+         transform="translate(73.251666,972.42832)"
+         id="g188">
+        <path
+           inkscape:connector-curvature="0"
+           id="path190"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 0,0 c 0,4.376 3.656,7.926 8.164,7.926 l 35.497,0 c 4.507,0 8.164,-3.55 8.164,-7.926" />
+      </g>
+      <g
+         transform="translate(127.32887,874.04892)"
+         id="g192">
+        <path
+           inkscape:connector-curvature="0"
+           id="path194"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -51.431,0 -14.026,85.468 78.147,0 L 0,0 Z" />
+      </g>
+      <g
+         transform="translate(64.400166,939.08942)"
+         id="g196">
+        <path
+           inkscape:connector-curvature="0"
+           id="path198"
+           style="fill:#eac591;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0.075,-0.466 73.479,0 73.479,0 l -5.127,-34.378 -62.577,0 L 0,0 Z" />
+      </g>
+      <g
+         transform="translate(89.296166,921.15632)"
+         id="g200">
+        <path
+           inkscape:connector-curvature="0"
+           id="path202"
+           style="fill:#62a265;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,6.333 5.286,11.466 11.809,11.466 6.521,0 11.81,-5.133 11.81,-11.466 0,-6.333 -5.289,-11.466 -11.81,-11.466 C 5.286,-11.466 0,-6.333 0,0" />
+      </g>
+      <g
+         transform="translate(91.856666,921.15632)"
+         id="g204">
+        <path
+           inkscape:connector-curvature="0"
+           id="path206"
+           style="fill:#77ae77;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,4.959 4.141,8.98 9.249,8.98 5.108,0 9.249,-4.021 9.249,-8.98 0,-4.958 -4.141,-8.979 -9.249,-8.979 C 4.141,-8.979 0,-4.958 0,0" />
+      </g>
+    </g>
+  </g>
+</svg>
