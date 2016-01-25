@@ -54,6 +54,17 @@ Childhood teacher challenge: Match the primary colors in picture with the colors
 - JS selections permutated.
 
 
+## Design Methodology
+
+- Large buttons, with funky font for children
+- Clean, flat design for simplicity and ease of use.
+- Navigations large, at top easy to navigate to page for children.
+- Pages in single page, state stored in JSON, easy to change pictures / values
+- CSS Pseudo-selectors used to draw overfitting div
+- Usage of em in CSS for more fluid font adjustments
+- Usage of Bower for dependency management
+
+
 ## Credit
 
 Round-icons: https://roundicons.com/free-icons/
