@@ -20,7 +20,7 @@ $(document).ready(function() {
     // 1
     {
       header: "Match the Activity",
-      description: "Match the objects on the left with their activities",
+      description: "Draw a line to match the equipment on the left, with the relateed activity on the right.",
       picsLeft: [
         "../images/round-icons/free-60-icons-20.png",
         "../images/round-icons/free-60-icons-15.png",
@@ -37,8 +37,8 @@ $(document).ready(function() {
 
     // 2
     {
-      header: "All Kinds of weather",
-      description: "Draw a line to match the children in the weather.",
+      header: "Match the children",
+      description: "",
       pics: [
         "../images/smiley.png",
         "../images/smiley.png",
@@ -88,16 +88,18 @@ $(document).ready(function() {
     // 5
     {
       header: "Count and Match",
-      description: "Match the number of bricks with the given number.",
-      pics: [
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png"
+      description: "Match the number of umbrellas with the given number.",
+      picsLeft: [
+        "../images/numerals/three.png",
+        "../images/numerals/four.png",
+        "../images/numerals/five.png",
+        "../images/numerals/eight.png",
+      ],
+      picsRight: [
+        "../images/numerals/3.png",
+        "../images/numerals/4.png",
+        "../images/numerals/5.png",
+        "../images/numerals/8.png",
       ]
     },
 
