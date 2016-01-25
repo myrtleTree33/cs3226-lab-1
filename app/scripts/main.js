@@ -1,8 +1,8 @@
 $(document).ready(function() {
   var content = [{
       // 0
-      header: "Match the icons",
-      description: "Draw a line from the frog on the left to the matching frog on the right.",
+      header: "Match the Icons",
+      description: "Draw a line from the icons on the left to the matching icon on the right.",
       picsLeft: [
         "../images/round-icons/free-60-icons-19.png",
         "../images/round-icons/free-60-icons-20.png",
@@ -20,7 +20,7 @@ $(document).ready(function() {
     // 1
     {
       header: "Match the Activity",
-      description: "Draw a line to match the equipment on the left, with the relateed activity on the right.",
+      description: "Draw a line to match the equipment on the left, with the related activity on the right.",
       picsLeft: [
         "../images/round-icons/free-60-icons-20.png",
         "../images/round-icons/free-60-icons-15.png",
@@ -37,39 +37,43 @@ $(document).ready(function() {
 
     // 2
     {
-      header: "Match the children",
-      description: "",
-      pics: [
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png"
+      header: "Group the Activities",
+      description: "Group the activities on the left with similar activities on the right.",
+      picsLeft: [
+        "../images/round-icons/free-60-icons-27.png",
+        "../images/round-icons/free-60-icons-56.png",
+        "../images/round-icons/free-60-icons-57.png",
+        "../images/round-icons/free-60-icons-48.png",
+      ],
+      picsRight: [
+        "../images/round-icons/free-60-icons-15.png",
+        "../images/round-icons/free-60-icons-30.png",
+        "../images/round-icons/free-60-icons-21.png",
+        "../images/round-icons/free-60-icons-53.png",
       ]
     },
 
     // 3
     {
-      header: "Draw a line to match",
+      header: "Match the Silhouette",
       description: "Draw a line to match the silhouette.",
-      pics: [
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png",
-        "../images/smiley.png"
+      picsLeft: [
+        "../images/round-icons/free-60-icons-20.png",
+        "../images/round-icons/free-60-icons-25.png",
+        "../images/round-icons/free-60-icons-17.png",
+        "../images/round-icons/free-60-icons-21.png",
+      ],
+      picsRight: [
+        "../images/round-icons/free-60-icons-20.png",
+        "../images/round-icons/free-60-icons-25.png",
+        "../images/round-icons/free-60-icons-17.png",
+        "../images/round-icons/free-60-icons-21.png",
       ]
     },
 
     // 4
     {
-      header: "Match the shapes",
+      header: "Match the Shapes",
       description: "Match the geometric shapes on the left with the ones on the right.",
       picsLeft: [
         "../images/shapes/shape-1.png",
@@ -105,7 +109,7 @@ $(document).ready(function() {
 
     // 6
     {
-      header: "Match the colors",
+      header: "Match the Colors",
       description: "Match the pictures on the left with their primary colors on the right.",
       picsLeft: [
         "../images/round-icons/free-60-icons-21.png",
@@ -129,8 +133,15 @@ $(document).ready(function() {
     $('.notify h1').text(dataObj.header);
     $('.notify p').text(dataObj.description);
     $(selector).each(function(i) {
+      $(this).removeClass('match-img-silhouette');
       $(this).attr('src', (dataObj[key])[i]);
+
+      // for silhouette option
+      if (idx === 3 && key === "picsRight") {
+        $(this).addClass('match-img-silhouette');
+      }
     });
+
   }
 
   document.populate = function(idx) {
@@ -140,7 +151,6 @@ $(document).ready(function() {
 
   // populate(content[0]);
 
-  //TODO debug this code
   $('li.nav-li').each(function(i) {
     var elem = $(this);
     elem.text(content[i].header);
