@@ -99,6 +99,24 @@ $(document).ready(function() {
         "../images/smiley.png",
         "../images/smiley.png"
       ]
+    },
+
+    // 6
+    {
+      header: "Match the colors",
+      description: "Match the pictures on the left with their primary colors on the right.",
+      picsLeft: [
+        "../images/round-icons/free-60-icons-21.png",
+        "../images/round-icons/free-60-icons-11.png",
+        "../images/round-icons/free-60-icons-14.png",
+        "../images/round-icons/free-60-icons-50.png"
+      ],
+      picsRight: [
+        "../images/colors/red.png",
+        "../images/colors/yellow.png",
+        "../images/colors/green.png",
+        "../images/colors/blue.png"
+      ]
     }
   ]
 

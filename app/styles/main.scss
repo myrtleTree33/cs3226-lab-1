@@ -2,7 +2,6 @@ $icon-font-path: '../fonts/';
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-
 // endbower
 $color-bach: #f5e5c0;
 $color-red-flat: #ea6045;
@@ -10,7 +9,7 @@ $color-yellow-flat: #ffe11a;
 $color-navy-dark: #3f5666;
 $color-white: #fff;
 $color-grey-1: #f9f9f9;
-
+$color-grey-dark: #333;
 //////////////////////////////////////////////////
 /* Responsive grid adapted from http://webdesign.tutsplus.com/articles/build-a-freshly-squeezed-responsive-grid-system--webdesign-14888 */
 @media screen and (min-width: 768px) {
@@ -106,7 +105,7 @@ h6 {
 }
 .section-nav {
   min-height: 280px;
-  background-color: $color-white;
+  background: $color-grey-dark;
 }
 .section-content {
   min-height: 300px;
@@ -179,7 +178,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
+  background: $color-grey-dark;
   color: #fff;
   font-size: 1.8em;
   text-align: center;
@@ -219,6 +218,8 @@ h6 {
 }
 .match-shell {
   width: 80%;
+  height: auto;
+  max-width: 80%;
   background-color: $color-white;
   border-top: 1em solid $color-yellow-flat;
   margin: 1em auto; // center
